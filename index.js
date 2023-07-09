@@ -36,3 +36,16 @@ function tinhN() {
   document.getElementById("result3").innerHTML = `
   Kết quả: ${sum3}`;
 }
+// bài 4
+function taodiv() {
+  var div = "";
+  for (var d = 1; d <= 10; d++) {
+    if (d % 2 == 0) {
+      div = div + "<div class='bg-danger'>chẵn</div>";
+    } else {
+      div = div + "<div class='bg-success'>lẻ</div>";
+    }
+  }
+  document.getElementById("result4").innerHTML = `
+  ${div}`;
+}
